@@ -14,13 +14,4 @@ public class TestH2ProjectApplication {
 		SpringApplication.run(TestH2ProjectApplication.class, args);
 	}
 
-//	@Bean
-//	CommandLineRunner commandLineRunner(UserRepository userRepository){
-//		return args -> {
-//			userRepository.save(new User("Tony", "Stark", "T.Stark@avengers.com") );
-//		};
-//	}
-
-
-
 }

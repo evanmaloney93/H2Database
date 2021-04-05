@@ -1,0 +1,15 @@
+2021-04-05 15:30:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONS" already exists; SQL statement:
+CREATE TABLE Persons ( PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255), City varchar(255), primary key (PersonID) ) [42101-200]
+2021-04-05 15:31:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONS" already exists; SQL statement:
+CREATE TABLE Persons ( PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255), City varchar(255) ) [42101-200]
+2021-04-05 15:39:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONS" not found; SQL statement:
+DROP TABLE PERSONS [42102-200]
+2021-04-05 15:39:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONS" not found; SQL statement:
+DROP TABLE PERSONS [42102-200]
+2021-04-05 15:40:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS USERS ( ID INT, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), EMAIL VARCHAR(255) PRIMARY KEY ([*]ID) )"; expected "HASH, AUTO_INCREMENT, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS USERS ( id int, first_name varchar(255), last_name varchar(255), email varchar(255) primary key (id) ) [42001-200]
